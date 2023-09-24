@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#header{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-image: url("./assets/kw-background.png");
+}
+
+.margins_for_items{
+    padding: 150px 80px;
+}
+.row_items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book_size{
+    height: 400px;
+    width: 200px;
+}
+
+.light_text{
+    color: rgb(93, 93, 93);
+    font-size: smaller;
+}
+
+.prices_and_cart_symbol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add_to_cart_box{
+    height: 30px;
+    width: 70px;
+    background-color: rgb(0, 136, 255);
+}
+
+.color_white{
+    color: white;
+}
+
+.cart_symbol{
+    height: 15px;
+    width: 15px;
+}
+
