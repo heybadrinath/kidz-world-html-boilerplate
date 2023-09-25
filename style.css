@@ -10,6 +10,11 @@ header{
     align-items: center;
 }
 
+
+#logo{
+ height: 20px;   
+}
+
 #cart_head{
     height: 20px;
 
