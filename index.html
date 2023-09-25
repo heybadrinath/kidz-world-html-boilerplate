@@ -4,94 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kidz World</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
-        <div>Kidz World</div>
+    <header>
+        <div><h3>Kidz World</h3></div>
         <div>
-            <img src="./assets/cart-icon.png">
-            <span>Cart items (0)</span>
+            <img src="./assets/cart-icon.png" id="cart_head">
+            <b>Cart items (0)</b>
         </div>
+    </header>
+
+    <div >
+        <img src="/assets/kw-background.png" id="bg_img">
     </div>
-    <p id="text_on_image">
-        <h1 class="color_white">Shop.</h1>
-        <h1 class="color_white">Have Fun.</h1>
-        <h1 class="color_white">Repeat.</h1>
-        <span class="color_white">#NewAndNow</span>
+    <p>
+        <h1 class="color_white text_on_image">Shop.</h1>
+        <h1 class="color_white text_on_image">Have Fun.</h1>
+        <h1 class="color_white text_on_image">Repeat.</h1>
+        <span class="color_white text_on_image">#NewAndNow</span>
     </p>
     <div id="items">
-        <b>Discover New Books</b>
-        <div id="firstrow" class="margins_for_items">
+        <b class="row_head">Discover New Books</b>
+        <div id="firstrow" class="spacing_for_items1">
             <div class="row1_item">
                 <img src="./assets/book1.png" class="book_size">
-                <b class="text_below_image">This was our pact</b>
-                <span class="light_text">Ryan Andrews</span>
+                <p class="text_below_image bold">This was our pact</p>
+                <p class="light_text">Ryan Andrews</p>
                 <div class="prices_and_cart_symbol">
-                    <b>$7.49</b>
-                    <div class="add_to_cart_box">
+                    <b class="bold">$7.49</b>
+                    <button class="add_to_cart_box">
                         <b class="color_white">Add</b>
-                        <img src="./assets/cart-icon.png" class="cart_symbol">
-                    </div>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
                 </div>
             </div>
             <div class="row1_item">
                 <img src="./assets/book2.png" class="book_size">
-                <b class="text_below_image">The famous Five</b>
-                <span class="light_text">Guid Blyton</span>
+                <br>
+                <p class="text_below_image bold">The famous Five</p>
+                <p class="light_text">Guid Blyton</p>
                 <div class="prices_and_cart_symbol">
-                    <b>$4.59</b>
-                    <div class="add_to_cart_box">
+                    <b class="bold">$4.59</b>
+                    <button class="add_to_cart_box">
                         <b class="color_white">Add</b>
-                        <img src="./assets/cart-icon.png" class="cart_symbol">
-                    </div>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
                 </div>
             </div>
             <div class="row1_item">
                 <img src="./assets/book3.png" class="book_size">
-                <b class="text_below_image">Matlida</b>
-                <span class="light_text">Roald Dahi</span>
+                <p class="text_below_image bold">Matlida</p>
+                <p class="light_text">Roald Dahi</p>
                 <div class="prices_and_cart_symbol">
-                    <b>$6.80</b>
-                    <div class="add_to_cart_box">
+                    <b class="bold">$6.80</b>
+                    <button class="add_to_cart_box">
                         <b class="color_white">Add</b>
-                        <img src="./assets/cart-icon.png" class="cart_symbol">
-                    </div>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
                 </div>
             </div>
             <div class="row1_item">
                 <img src="./assets/book4.png" class="book_size">
-                <b class="text_below_image">Harry  Potter</b>
-                <span class="light_text">JK Rowling</span>
+                <p class="text_below_image bold">Harry  Potter</p>
+                <p class="light_text">JK Rowling</p>
                 <div class="prices_and_cart_symbol">
-                    <b>$10</b>
-                    <div class="add_to_cart_box">
+                    <b class="bold">$10</b>
+                    <button class="add_to_cart_box">
                         <b class="color_white">Add</b>
-                        <img src="./assets/cart-icon.png" class="cart_symbol">
-                    </div>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
                 </div>
             </div>
             <div class="row1_item">
                 <img src="./assets/book5.png" class="book_size">
-                <b class="text_below_image">For Young readers</b>
-                <span class="light_text">Ruskin Bond</span>
+                <p class="text_below_image bold">For Young readers</p>
+                <p class="light_text">Ruskin Bond</p>
                 <div class="prices_and_cart_symbol">
-                    <b>$7.29</b>
-                    <div class="add_to_cart_box">
+                    <b class="bold">$7.29</b>
+                    <button class="add_to_cart_box">
                         <b class="color_white">Add</b>
-                        <img src="./assets/cart-icon.png" class="cart_symbol">
-                    </div>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
                 </div>
             </div>
             <div class="row1_item">
                 <img src="./assets/book6.png" class="book_size">
-                <b class="text_below_image">Wimpy Kid - DIY</b>
-                <span class="light_text">Jeff Kinney</span>
+                <p class="text_below_image bold">Wimpy Kid - DIY</p>
+                <p class="light_text">Jeff Kinney</p>
                 <div class="prices_and_cart_symbol">
-                    <b>$4.99</b>
-                    <div class="add_to_cart_box">
+                    <b class="bold">$4.99</b>
+                    <button class="add_to_cart_box">
                         <b class="color_white">Add</b>
-                        <img src="./assets/cart-icon.png" class="cart_symbol">
-                    </div>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
                 </div>
             </div>
         </div>
@@ -99,8 +105,145 @@
 
 
 
+        <b class="row_head">Discover New Games</b>
+        <div id="secondrow" class="spacing_for_items2">
+            <div class="row2_item">
+                <img src="./assets/dart-board.png" class="game_size">
+                <p class="bold">Dart Board</p>
+                <p class="light_text">Wooden Board, 16 inches</p>
+                <div class="prices_and_cart_symbol">
+                    <b class="bold">$17.49</b>
+                    <button class="add_to_cart_box">
+                        <b class="color_white">Add</b>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
+                </div>
+
+            </div>
+            <div class="row2_item">
+                <img src="./assets/connect-four.png" class="game_size">
+                <p class="bold">Connect 4</p>
+                <p class="light_text">Board Game, multiplayer</p>
+                <div class="prices_and_cart_symbol">
+                    <b class="bold">$19.99</b>
+                    <button class="add_to_cart_box">
+                        <b class="color_white">Add</b>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
+                </div>
+
+            </div>
+            <div class="row2_item">
+                <img src="./assets/jenga.png" class="game_size">
+                <p class="bold">Jenga</p>
+                <p class="light_text">Wooden Board, 16 inches</p>
+                <div class="prices_and_cart_symbol">
+                    <b class="bold">$20.99</b>
+                    <button class="add_to_cart_box">
+                        <b class="color_white">Add</b>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
+                </div>
+
+            </div>
+            <div class="row2_item">
+                <img src="./assets/monopoly.png" class="game_size">
+                <p class="bold">Monopoly</p>
+                <p class="light_text">1.61 x 15.75 x 10.51 inches</p>
+                <div class="prices_and_cart_symbol">
+                    <b class="bold">$19.49</b>
+                    <button class="add_to_cart_box">
+                        <b class="color_white">Add</b>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
+                </div>
+
+            </div>
+        
+        
+        
+        
+        </div>
+
+
+
+
+        <b class="row_head">Handmade With Love</b>
+        <div id="thirdrow" class="spacing_for_items2">
+            <div class="row2_item">
+                <img src="./assets/bookmarks.png" class="game_size">
+                <p class="bold">Bookmarks</p>
+                <p class="light_text">Handmade With Love</p>
+                <div class="prices_and_cart_symbol">
+                    <b class="bold">$12.49</b>
+                    <button class="add_to_cart_box">
+                        <b class="color_white">Add</b>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
+                </div>
+
+            </div>
+            <div class="row2_item">
+                <img src="./assets/birthday-card.png" class="game_size">
+                <p class="bold">Birthday Card</p>
+                <p class="light_text">Handmade With Love</p>
+                <div class="prices_and_cart_symbol">
+                    <b class="bold">$19.99</b>
+                    <button class="add_to_cart_box">
+                        <b class="color_white">Add</b>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
+                </div>
+
+            </div>
+            <div class="row2_item">
+                <img src="./assets/stuffed-toy.png" class="game_size">
+                <p class="bold">Stuffed Toys</p>
+                <p class="light_text">Handmade With Love</p>
+                <div class="prices_and_cart_symbol">
+                    <b class="bold">$15.99</b>
+                    <button class="add_to_cart_box">
+                        <b class="color_white">Add</b>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
+                </div>
+
+            </div>
+            <div class="row2_item">
+                <img src="./assets/dream-catcher.png" class="game_size">
+                <p class="bold">Dream Catcher Drawing</p>
+                <p class="light_text">Handmade With Love</p>
+                <div class="prices_and_cart_symbol">
+                    <b class="bold">$18.49</b>
+                    <button class="add_to_cart_box">
+                        <b class="color_white">Add</b>
+                        <img src="./assets/cart-icon-white.png" class="cart_symbol">
+                    </button>
+                </div>
+
+            </div>
+        
+        
+        
+        
+        </div>
+
+
 
     </div>
 
+
+    <footer>
+
+        <div>
+            <p class="color_white">Brought to you by</p>
+            <img src="./assets/krishti.png" id="footer_img">
+        </div>
+        <div style="text-align: end;">
+            <p class="bold color_white">Krishti</p>
+            <p class="color_white">Made with ❤️ by Badrī</p>
+            <p class="color_white">Talk to me at heybadrinath@gmail.com</p>
+        </div>
+    </footer>
 </body>
 </html>
