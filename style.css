@@ -112,3 +112,45 @@ footer{
     width: 130px;
     border-radius: 90px;
 }
+
+
+@media (max-width:600px) {
+    
+
+    #firstrow,#secondrow,#thirdrow{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        max-width: fit-content;
+        border: 1px solid black;
+
+    }
+    header{
+        justify-content: space-between;
+        max-width: 80%;
+        padding: 0%;
+        border: 1px solid black;
+    }
+    #items{
+        padding: 0% 30% 0% 10%;
+    }
+    .book_size{
+        min-width: 70%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #bg_img{
+        max-width: 80%;
+    }
+
+    .prices_and_cart_symbol{
+        justify-content: space-around;
+    }
+    body{
+    margin-right: 30%;        
+    }
+   
+
+}
