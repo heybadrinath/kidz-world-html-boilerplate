@@ -129,7 +129,8 @@ footer{
     }
     header{
         justify-content: space-between;
-        max-width: 80%;
+        display:block;
+        max-width: 100%;
         padding: 0%;
         border: 1px solid black;
     }
@@ -143,15 +144,13 @@ footer{
     }
 
     #bg_img{
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .prices_and_cart_symbol{
         justify-content: space-around;
     }
-    body{
-    margin-right: 30%;        
-    }
+    
    
 
 }
