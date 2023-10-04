@@ -122,6 +122,7 @@ footer{
         flex-direction: column;
     }
     footer{
+        display:block;
         max-width: fit-content;
         border: 1px solid black;
 
